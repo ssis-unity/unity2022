@@ -7,6 +7,8 @@ In hopefully chronological order the progress of our club will be documented
 
 We had an introduction to variables, declaration (C# is statically typed) and possible types (int, float, char, string, bool) and name conventions. After that a Kahoot! checked if we payed attention. Only 2 of 14 students scored 8/8!
 
+You can follow the instructions on Youtube in [this video created by Soleil](https://youtu.be/1-uLP7GGcRc).
+
 - Create a new project in Unity
 - Add a cube
 - Add the material "Red"
