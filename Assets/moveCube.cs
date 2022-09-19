@@ -49,7 +49,7 @@ public class moveCube : MonoBehaviour
         {
             transform.Rotate(0f, -turnSpeed * Time.deltaTime, 0f);
         }
-        if (Input.GetKey("space")) //  just print present coordinates to console
+        if (Input.GetKeyDown("space")) //  just print present coordinates to console
         {
             Debug.Log("Speed is " + speed + transform.position);
         }
