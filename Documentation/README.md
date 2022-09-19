@@ -5,6 +5,8 @@ In hopefully chronological order the progress of our club will be documented
 
 ## 2022/09/16 Create first object, define variables of correct type and write first lines of code
 
+<img src="20220919_yaw.png" align="right" width="30%">
+
 We had an introduction to variables, declaration (C# is statically typed) and possible types (int, float, char, string, bool) and name conventions. After that a Kahoot! checked if we payed attention. Only 2 of 14 students scored 8/8!
 
 You can follow the instructions on Youtube in [this video created by Soleil](https://youtu.be/1-uLP7GGcRc).
@@ -62,6 +64,8 @@ public class moveCube : MonoBehaviour
 ```
 
 ## 2022/09/09 First meeting - What to expect
+
+<img src="20220919_asg_itch.io.png" align="right" width="25%">
 
 We want to create games, so the first meeting was about clarifying the objective for ourselves. Plus links to the software to install to be ready to code for the next session. We need:
 
