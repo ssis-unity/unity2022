@@ -6,6 +6,8 @@ Documentation of progess at the Unity Impact Club 2022 at SSIS
 
 You can find out more at the website [sites.google.com/ssis.edu.vn/unityimpact](https://sites.google.com/ssis.edu.vn/unityimpact) and on our [Instagram account](https://www.instagram.com/unity_impact/) or on our [Youtube Channel]()
 
+<img src="Documentation/20220919_asg_itch.io.png" align="right" width="25%">
+
 ### Media:
 
 - Website [https://sites.google.com/ssis.edu.vn/unityimpact](https://sites.google.com/ssis.edu.vn/unityimpact)
