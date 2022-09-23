@@ -4,6 +4,8 @@ In hopefully chronological order the progress of our club will be documented
 
 ## 2022/09/23 Collision Detection - Rigid Bodies
 
+<img src="20220923.png" align="right" width="30%">
+
 Now that we have some red cubes, let's add a second object and detect the collision between them. The lines of code added to the `moveCube.cs` file are rather short. Inside the `moveCube` class we add another void function to `Start()` and `Update()`:
 
 ``` cs
@@ -18,7 +20,7 @@ Since it is already connected to the red cube we created it is automatically exe
 
 - add `OnCollisionEnter()` function to the .cs code
 - create a second object (cylinder - tree)
-- add "Rigid Body 3D" to cube and tree object
+- add "Rigidbody" (not 2D) to the cube and tree object
 - the BoxCollider object should be added automatically
 - the objects now have a mass and react to gravity, moving in negative y direction
 
