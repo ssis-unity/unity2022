@@ -2,6 +2,26 @@
 
 In hopefully chronological order the progress of our club will be documented
 
+## 2022/09/23 Collision Detection - Rigid Bodies
+
+Now that we have some red cubes, let's add a second object and detect the collision between them. The lines of code added to the `moveCube.cs` file are rather short. Inside the `moveCube` class we add another void function to `Start()` and `Update()`:
+
+``` cs
+    void OnCollisionEnter(Collision collision) {
+        if (collision.gameObject.tag == "Environment") {
+            Debug.Log("I crashed into a tree.");
+        }
+    }
+```
+
+Since it is already connected to the red cube we created it is automatically executed. But to make it work we have to add a few things:
+
+- add `OnCollisionEnter()` function to the .cs code
+- create a second object (cylinder - tree)
+- add "Rigid Body 3D" to cube and tree object
+- the BoxCollider object should be added automatically
+- the objects now have a mass and react to gravity, moving in negative y direction
+
 
 ## 2022/09/16 Create first object, define variables of correct type and write first lines of code
 
