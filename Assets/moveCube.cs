@@ -54,4 +54,9 @@ public class moveCube : MonoBehaviour
             Debug.Log("Speed is " + speed + transform.position);
         }
     }
+    void OnCollisionEnter(Collision collision) {
+        if (collision.gameObject.tag == "Environment") {
+            Debug.Log("I crashed into a tree.");
+        }
+    }
 }
