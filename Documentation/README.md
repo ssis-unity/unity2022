@@ -2,6 +2,26 @@
 
 In hopefully chronological order the progress of our club will be documented
 
+## 2022/10/07 Switch, While and Do While Loops, and instantiate
+
+Starting with a funny (challenging) Kahoot! we went deeper into loops and instances.
+
+``` c#
+using UnityEngine;
+
+public class Example : MonoBehaviour
+{
+    public GameObject prefab;
+    void Start()
+    {
+        for (var i = 0: i < 10; i++)
+        {
+            Instantiate(prefab, new Vector3(i * 2.0f, 0, 0), Quaternion.identity);
+        }
+    }
+}    
+```
+
 ## 2022/09/23 Collision Detection - Rigid Bodies
 
 <img src="20220923.png" align="right" width="30%">
