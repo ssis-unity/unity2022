@@ -4,7 +4,7 @@ In hopefully chronological order the progress of our club will be documented
 
 ## 2022/10/07 Switch, While and Do While Loops, and instantiate
 
-Starting with a funny (challenging) Kahoot! we went deeper into loops and instances.
+Starting with a funny (challenging) Kahoot! we went deeper into loops and instances. [See the slides on Canva](https://www.canva.com/design/DAFOKUNp9SU/wvR09d4HB3ZH4NISHU7cXA/edit?utm_content=DAFOKUNp9SU&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 
 ``` c#
 using UnityEngine;
