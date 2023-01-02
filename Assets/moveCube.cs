@@ -6,6 +6,7 @@ public class moveCube : MonoBehaviour
 {
     float speed = 10.0f;
     float turnSpeed = 100.0f;
+    float upSpeed = 0.0f;
 
     // Start is called before the first frame update
     void Start()
@@ -49,10 +50,30 @@ public class moveCube : MonoBehaviour
         {
             transform.Rotate(0f, -turnSpeed * Time.deltaTime, 0f);
         }
-        if (Input.GetKeyDown("space")) //  just print present coordinates to console
+        if (Input.GetKey(KeyCode.P)) // print position
         {
             Debug.Log("Speed is " + speed + transform.position);
         }
+
+        if (Input.GetKeyDown("space")) //  just print present coordinates to console
+        {
+            // Debug.Log("Speed is " + speed + transform.position);
+            upSpeed += 100.0f;
+        }
+        if (upSpeed != 0) {
+            if (transform.position.y > 0) {
+                transform.Translate(Vector3.up * upSpeed * Time.deltaTime);
+                upSpeed -= 1.0f;
+                Debug.Log("does this work");
+            }
+            else {
+                transform.Translate(0, -transform.position.y, 0);
+                upSpeed = 0.0f;
+            }
+        }
+        // if (transfrom.position.y < 0) {
+        //         transform.Translate(0, -transform.position.y, 0);
+        // }
     }
     void OnCollisionEnter(Collision collision) {
         if (collision.gameObject.tag == "Environment") {
