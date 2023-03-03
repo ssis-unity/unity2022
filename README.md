@@ -18,3 +18,9 @@ You can find out more at the website [sites.google.com/ssis.edu.vn/unityimpact](
 ## History
 
 This will be documented in the [Documentation](Documentation) folder.
+
+### Game Exibition March 3rd, 2023
+
+After the first semester seven different games were developed. On the game exibition in MPR2 students had a chance to test their skills in these:
+
+![Games March 2023](Documentation/2023-03-03_games.jpg)
