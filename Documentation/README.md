@@ -113,3 +113,9 @@ We want to create games, so the first meeting was about clarifying the objective
 
 - [Unity](https://unity.com/download)
 - [Visual Studio Code](https://code.visualstudio.com/)
+
+## 2023/02/08 Core club members in the second semester
+
+![club members 2023](unity_impact_2023.jpg)
+
+In the last weeks of May the *Girls Code* club merged into our Unity club. Congratulations to Jocelyn, she made great progress in 2D and 3D programming, getting objects controlled and moving in a short period of time!
