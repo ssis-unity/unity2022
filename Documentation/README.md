@@ -1,48 +1,15 @@
 # Documentation
 
-In hopefully chronological order the progress of our club will be documented
+In hopefully chronological order the progress of our club will be documented. Newer events will be added to the bottom.
 
-## 2022/10/07 Switch, While and Do While Loops, and instantiate
+## 2022/09/09 First meeting - What to expect
 
-Starting with a funny (challenging) Kahoot! we went deeper into loops and instances. [See the slides on Canva](https://www.canva.com/design/DAFOKUNp9SU/wvR09d4HB3ZH4NISHU7cXA/edit?utm_content=DAFOKUNp9SU&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
+<img src="20220919_asg_itch.io.png" align="right" width="25%">
 
-``` c#
-using UnityEngine;
+We want to create games, so the first meeting was about clarifying the objective for ourselves. Plus links to the software to install to be ready to code for the next session. We need:
 
-public class Example : MonoBehaviour
-{
-    public GameObject prefab;
-    void Start()
-    {
-        for (var i = 0: i < 10; i++)
-        {
-            Instantiate(prefab, new Vector3(i * 2.0f, 0, 0), Quaternion.identity);
-        }
-    }
-}    
-```
-
-## 2022/09/23 Collision Detection - Rigid Bodies
-
-<img src="20220923.png" align="right" width="30%">
-
-Now that we have some red cubes, let's add a second object and detect the collision between them. The lines of code added to the `moveCube.cs` file are rather short. Inside the `moveCube` class we add another void function to `Start()` and `Update()`:
-
-``` cs
-    void OnCollisionEnter(Collision collision) {
-        if (collision.gameObject.tag == "Environment") {
-            Debug.Log("I crashed into a tree.");
-        }
-    }
-```
-
-Since it is already connected to the red cube we created it is automatically executed. But to make it work we have to add a few things:
-
-- add `OnCollisionEnter()` function to the .cs code
-- create a second object (cylinder - tree)
-- add "Rigidbody" (not 2D) to the cube and tree object
-- the BoxCollider object should be added automatically
-- the objects now have a mass and react to gravity, moving in negative y direction
+- [Unity](https://unity.com/download)
+- [Visual Studio Code](https://code.visualstudio.com/)
 
 
 ## 2022/09/16 Create first object, define variables of correct type and write first lines of code
@@ -105,14 +72,50 @@ public class moveCube : MonoBehaviour
 
 ```
 
-## 2022/09/09 First meeting - What to expect
 
-<img src="20220919_asg_itch.io.png" align="right" width="25%">
+## 2022/09/23 Collision Detection - Rigid Bodies
 
-We want to create games, so the first meeting was about clarifying the objective for ourselves. Plus links to the software to install to be ready to code for the next session. We need:
+<img src="20220923.png" align="right" width="30%">
 
-- [Unity](https://unity.com/download)
-- [Visual Studio Code](https://code.visualstudio.com/)
+Now that we have some red cubes, let's add a second object and detect the collision between them. The lines of code added to the `moveCube.cs` file are rather short. Inside the `moveCube` class we add another void function to `Start()` and `Update()`:
+
+``` cs
+    void OnCollisionEnter(Collision collision) {
+        if (collision.gameObject.tag == "Environment") {
+            Debug.Log("I crashed into a tree.");
+        }
+    }
+```
+
+Since it is already connected to the red cube we created it is automatically executed. But to make it work we have to add a few things:
+
+- add `OnCollisionEnter()` function to the .cs code
+- create a second object (cylinder - tree)
+- add "Rigidbody" (not 2D) to the cube and tree object
+- the BoxCollider object should be added automatically
+- the objects now have a mass and react to gravity, moving in negative y direction
+
+
+## 2022/10/07 Switch, While and Do While Loops, and instantiate
+
+Starting with a funny (challenging) Kahoot! we went deeper into loops and instances. [See the slides on Canva](https://www.canva.com/design/DAFOKUNp9SU/wvR09d4HB3ZH4NISHU7cXA/edit?utm_content=DAFOKUNp9SU&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
+
+``` c#
+using UnityEngine;
+
+public class Example : MonoBehaviour
+{
+    public GameObject prefab;
+    void Start()
+    {
+        for (var i = 0: i < 10; i++)
+        {
+            Instantiate(prefab, new Vector3(i * 2.0f, 0, 0), Quaternion.identity);
+        }
+    }
+}    
+```
+
 
 ## 2023/02/08 Core club members in the second semester
 
