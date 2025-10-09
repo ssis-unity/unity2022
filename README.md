@@ -1,5 +1,8 @@
 # unity2022
 
+![GitHub Release](https://img.shields.io/github/v/release/ssis-unity/unity2022)
+![GitHub License](https://img.shields.io/github/license/ssis-unity/unity2022)
+
 Documentation of progess at the Unity Impact Club 2022 at SSIS
 
 ## The club in social media
